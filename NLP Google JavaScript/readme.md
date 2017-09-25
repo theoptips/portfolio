@@ -7,5 +7,5 @@ Step -
 	Call API in App Script installed in Google Doc
 	Receive response sentiment points +/-0.0 +/- 1.0
 	Visual markup
-
-![NLP Google Natural Language API Demo]:(/NLP Google JavaScript/nlp_google_demo_google_doc_nlp_api.png?raw=true)
+	
+![](nlp_google.png)

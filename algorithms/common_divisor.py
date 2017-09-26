@@ -29,11 +29,12 @@ def greatest_common_divisor(first_num, sec_num, iteration=0):
 
 
 		
-print(greatest_common_divisor(80,60))
-print(greatest_common_divisor(5,7))
+print(greatest_common_divisor(80,60)) #result is 20
+print(greatest_common_divisor(5,7)) #result is 1
 print(greatest_common_divisor(0,99
-))
+)) #result is 99
 print(greatest_common_divisor(98,0
-))
-print(greatest_common_divisor(13,1287))
-print(greatest_common_divisor(54,24))
+)) #result is 98
+print(greatest_common_divisor(13,1287)) #result is 13
+print(greatest_common_divisor(54,24)) #result is 6
+print(greatest_common_divisor(5,5)) #result is 5

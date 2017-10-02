@@ -4,6 +4,7 @@
 # realistically need to check if divisible by any known prime number
 # small_known_prime = [1,2,3,5,7,11,13,17]
 # for x in small_known_prime: x % 2 == 1 except for 1, 9 is falsely returned as prime
+# if a natural number is not prime, then it is called composite number
 
 # first iteration
 def is_prime_1(x):
@@ -32,4 +33,7 @@ test(1, True)
 # while there are ways to save time, such as take 9 out of the iteration, but it is also very convenient to just 
 # go through the potential candidates in order
 # if we check for all known primes, it is quite recursive, big O gets big
+
+# interesting facts about prime
+# prime number can be used in public key crypto
 

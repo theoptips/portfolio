@@ -17,3 +17,4 @@ for i in l:
 
 prime = hard + base + new_base
 print(prime)
+

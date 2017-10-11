@@ -12,5 +12,13 @@ def f(n):
 	else: 
 		return f(n-1) + f(n-2)
 
-result = [f(3)]
-print(result)
+#result = [f(3)]
+#print(result)
+
+def F(n,s=[]):
+	for i in range(0,n+1):
+#		print(f(i))
+		temp = f(i)
+		s.append(temp)
+	return s
+print(F(20))

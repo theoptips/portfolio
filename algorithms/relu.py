@@ -1,4 +1,4 @@
-def relu(twod_array):
+wdef relu(twod_array):
 	arr = twod_array
 	m = len(twod_array)
 	for i in range(0,m):

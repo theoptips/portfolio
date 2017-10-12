@@ -1,0 +1,15 @@
+# divisible by itself and 1 only
+
+# 5 % 2 = 1
+# 7 * 2 = 1
+# 13 * 2 = 1
+# 460247 modulo 2 = 1
+
+# hueristic applies too
+
+for x in range(0,1000):
+	if x % 2 == 1:
+		print str(x) + " " + "is prime!"
+
+
+
